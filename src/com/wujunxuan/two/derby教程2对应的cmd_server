@@ -1,0 +1,28 @@
+Last login: Thu Sep 19 15:11:29 on ttys002
+wujunxuandeMacBook-Pro:~ wujunxuan$ cd /usr/local/var/derby/DERBYTUTOR
+wujunxuandeMacBook-Pro:DERBYTUTOR wujunxuan$ brew services list
+Name                  Status  User      Plist
+db-derby              started wujunxuan /usr/local/opt/db-derby/homebrew.mxcl.db-derby.plist
+emacs                 stopped           
+mongodb-community@4.0 stopped           
+redis@3.2             stopped           
+redis@4.0             stopped           
+unbound               stopped           
+wujunxuandeMacBook-Pro:DERBYTUTOR wujunxuan$ brew services stop db-derby
+Stopping `db-derby`... (might take a while)
+wujunxuandeMacBook-Pro:DERBYTUTOR wujunxuan$ brew services list
+Name                  Status  User Plist
+db-derby              stopped      
+emacs                 stopped      
+mongodb-community@4.0 stopped      
+redis@3.2             stopped      
+redis@4.0             stopped      
+unbound               stopped      
+wujunxuandeMacBook-Pro:DERBYTUTOR wujunxuan$ brew services run db-derby
+==> Successfully ran `db-derby` (label: homebrew.mxcl.db-derby)
+wujunxuandeMacBook-Pro:DERBYTUTOR wujunxuan$ brew services stop db-derby
+Stopping `db-derby`... (might take a while)
+wujunxuandeMacBook-Pro:DERBYTUTOR wujunxuan$ 
+
+
+

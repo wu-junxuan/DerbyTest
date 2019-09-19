@@ -1,0 +1,19 @@
+----------------------------------------------------------------
+Thu Sep 19 15:52:07 CST 2019:
+正在使用类加载程序 sun.misc.Launcher$AppClassLoader@409a44d6 引导数据库
+目录 /Users/wujunxuan/eclipse-workspace/DerbyTest/jdbcDemoDB 中的 Derby 版本 The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137) 实例 a816c00e-016d-4881-c4b1-00000eb2c778
+已从 file:/Users/wujunxuan/eclipse-workspace/DerbyTest/lib/derby.jar 加载
+java.vendor=Oracle Corporation
+java.runtime.version=1.7.0_80-b15
+user.dir=/Users/wujunxuan/eclipse-workspace/DerbyTest
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.14.6
+derby.system.home=null
+数据库类加载程序已启动 - derby.database.classpath=''
+----------------------------------------------------------------
+Thu Sep 19 15:52:32 CST 2019：正在关闭 Derby 引擎
+----------------------------------------------------------------
+Thu Sep 19 15:52:32 CST 2019:
+正在使用类加载程序 sun.misc.Launcher$AppClassLoader@409a44d6 关闭数据库目录 /Users/wujunxuan/eclipse-workspace/DerbyTest/jdbcDemoDB 上的实例 a816c00e-016d-4881-c4b1-00000eb2c778
+----------------------------------------------------------------
